@@ -1,2 +1,2 @@
 # rex_repo_template
-REDAXO AddOn description
+REDAXO AddOn english readme
