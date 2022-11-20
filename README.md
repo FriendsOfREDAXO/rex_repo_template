@@ -3,6 +3,6 @@ REDAXO AddOn english readme
 
 please use in your classes a namespace as
 
-namespace FriendsOfRedaxo\[AddOnNameWithouSpacesAndAsCamelCase]
+namespace FriendsOfRedaxo\[AddOnNameWithoutSpacesAndAsCamelCase]
 
-in order to use non deprecated features please dont use PlugIns anymore
+in order to use non deprecated features please don't use PlugIns anymore
