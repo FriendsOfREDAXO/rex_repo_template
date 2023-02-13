@@ -34,7 +34,7 @@ jobs:
 
       # run php-cs-fixer, fix code styles
       -   name: Run PHP CS Fixer
-          run: composer cs-fix
+          run: composer cs-dry
 
       # commit and push fixed files
 #      -   uses: stefanzweifel/git-auto-commit-action@v4
