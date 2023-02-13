@@ -1,1 +1,3 @@
-<?php // Boot code
+<?php
+
+// Boot code

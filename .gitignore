@@ -12,3 +12,6 @@ modules.xml
 .idea/vcs.xml
 .idea/encodings.xml
 *.ipr
+/.idea/
+/vendor/
+/.php-cs-fixer.cache
