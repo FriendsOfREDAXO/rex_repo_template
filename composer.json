@@ -1,0 +1,35 @@
+{
+    "description": [
+        "Diese Datei verhindert Konfliktionsprobleme zwischen REDAXO Core/Standard-Addons und eigenen Composer-Abhängigkeiten.",
+        "Der 'replace'-Block teilt Composer mit, dass diese Pakete bereits vorhanden sind und nicht erneut installiert werden sollen.",
+        "So werden Konflikte vermieden, wenn dein Addon eigene Composer-Abhängigkeiten hat, die auch im REDAXO Core verwendet werden."
+    ],
+    "replace": {
+        "enshrined/svg-sanitize": "*",
+        "erusev/parsedown": "*",
+        "erusev/parsedown-extra": "*",
+        "filp/whoops": "*",
+        "lbuchs/webauthn": "*",
+        "phpmailer/phpmailer": "*",
+        "psr/container": "*",
+        "psr/http-message": "*",
+        "psr/log": "*",
+        "ramsey/http-range": "*",
+        "symfony/console": "*",
+        "symfony/http-foundation": "*",
+        "symfony/var-dumper": "*",
+        "symfony/yaml": "*",
+        "voku/anti-xss": "*",
+        "voku/portable-utf8": "*",
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-intl-grapheme": "*",
+        "symfony/polyfill-intl-normalizer": "*",
+        "symfony/polyfill-mbstring": "*",
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php73": "*",
+        "symfony/polyfill-php74": "*",
+        "symfony/polyfill-php80": "*",
+        "symfony/polyfill-php81": "*"
+    }
+}
